@@ -1,0 +1,42 @@
+icon.png
+Author: Probably SiliconDust
+License: Probably NOT free to use! Should be changed!
+http://www.hdhomerun.com/images/hdhomerun/HDhomerun_dual_rev3.jpg
+
+download.png
+Author: Bobbyperux (MISTO icon pack)
+License: Freeware Non-commercial
+http://findicons.com/icon/85798/arrow_down?id=85798
+	
+explore.png
+Author: IconsLand
+License: Free for non-commercial use.
+http://www.veryicon.com/icons/system/vista-elements/binoculars-search.html
+
+movies.png
+Author: Sebastiaan de With
+License: Freeware Non-commercial
+http://findicons.com/icon/35690/sidebar_movies_blue
+
+next.png
+author: kyo-tux (Aeon Icon pack)
+License: "Free for non-commercial use
+http://kyo-tux.deviantart.com
+
+previous.png
+Icon taken from nuka's original YouTube plugin, assumed to be ok license wise 
+
+search.png
+Author: Harwen
+License: Free for non-commercial use.
+http://www.iconarchive.com/show/simple-icons-by-harwen/Search-icon.html
+
+settings.png
+Author: IconLab
+License: Free for non-commercial use
+http://www.iconeasy.com/icon/settings-1-icon/
+
+shows.png
+Author: DBGthekafu - "Black-white 2 Vista" icon theme
+License: Reuse of the file allowed under the GPL
+http://commons.wikimedia.org/wiki/File:Tv_bw.png

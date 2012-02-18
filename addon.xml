@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.hdhomerun"
+       name="HDHomerun"
+       version="0.0.2"
+       provider-name="Quintesse">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Plugin for access to Live TV on HDHomerun devices</summary>
+    <description>A plugin that allows you to browse and watch all the live TV channels available on any HDHomerun devices found on your local network.
+    
+Currently only works on Linux! If you want to help to make it work on Windows/Mac conatct me at tako(AT)codejive.org</description>
+    <disclaimer>The standard stuff: I'm not responsible for this blowing up your system or the break-up with your significant other.</disclaimer>
+  </extension>
+</addon>

@@ -1,0 +1,4 @@
+[B]Version 0.0.2[/B]
+- Updated to work with Eden
+[B]Version 0.0.1[/B]
+- First version with basic funcionality
