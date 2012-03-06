@@ -118,7 +118,7 @@ class LibHdhr:
         if (sys.platform == 'linux2'):
             lib = self._libhdhr = cdll.LoadLibrary("libhdhomerun.so.1.0.0")
         elif (sys.platform == 'darwin'):
-            lib = self._libhdhr = cdll.LoadLibrary("libhdhomerun.dylib")
+            lib = self._libhdhr = cdll.LoadLibrary("/Applications/XBMC.app/Contents/Frameworks/libhdhomerun.dylib")
         else:
             lib = self._libhdhr = cdll.LoadLibrary("libhdhomerun.dll")
         # Discovery related functions
