@@ -115,7 +115,12 @@ class hdhomerun_plotsample_t(Structure):
 #
 class LibHdhr:
     def __init__(self):
-        lib = self._libhdhr = cdll.LoadLibrary("libhdhomerun.so.1.0.0")
+        if (sys.platform == 'linux2'):
+            lib = self._libhdhr = cdll.LoadLibrary("libhdhomerun.so.1.0.0")
+        elif (sys.platform == 'darwin'):
+            lib = self._libhdhr = cdll.LoadLibrary("libhdhomerun.dylib")
+        else:
+            lib = self._libhdhr = cdll.LoadLibrary("libhdhomerun.dll")
         # Discovery related functions
         LibHdhr._libfunc(lib.hdhomerun_discover_find_devices_custom, [ c_uint32, c_uint32, c_uint32, POINTER(hdhomerun_discover_device_t), c_int32 ], c_int32)
         LibHdhr._libfunc(lib.hdhomerun_discover_validate_device_id, [ c_uint32 ], _c_bool)

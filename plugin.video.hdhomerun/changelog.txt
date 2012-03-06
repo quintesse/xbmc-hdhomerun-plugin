@@ -1,3 +1,5 @@
+[B]Version 0.0.3[/B]
+- Should now work on Mac too (with some manual work)
 [B]Version 0.0.2[/B]
 - Updated to work with Eden
 [B]Version 0.0.1[/B]

@@ -19,7 +19,7 @@
 import sys, xbmc, xbmcaddon
 
 # plugin constants
-__version__ = "0.0.2"
+__version__ = "0.0.3"
 __plugin__ = "HDHomerun-" + __version__
 __author__ = "Quintesse"
 __url__ = "www.xbmc.com"
